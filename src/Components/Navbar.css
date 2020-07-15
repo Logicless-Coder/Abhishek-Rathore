@@ -1,0 +1,14 @@
+.navbar {
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  width: 40%;
+  margin: auto;
+  float: right;
+  justify-content: space-evenly;
+}
+
+.navbar ul li {
+}
