@@ -2,6 +2,7 @@
   background-color: #2f3640;
   display: flex;
   height: 80px;
+  position: sticky;
 }
 
 .logo-div {

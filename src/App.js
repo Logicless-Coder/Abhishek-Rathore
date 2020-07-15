@@ -3,6 +3,7 @@ import "./App.css";
 
 // Components
 import Header from "./Components/Header";
+import Hero from "./Components/Hero";
 
 // Fonts
 import "fontsource-roboto";
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Hero />
     </div>
   );
 }
