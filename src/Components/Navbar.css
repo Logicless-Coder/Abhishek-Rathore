@@ -4,11 +4,24 @@
 .navbar ul {
   list-style-type: none;
   display: flex;
-  width: 40%;
+  width: 100%;
   margin: auto;
-  float: right;
   justify-content: space-evenly;
 }
 
 .navbar ul li {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+.navbar ul li a {
+  padding: 5px 10px;
+  color: #dcdde1;
+  border: 1px solid #2f3640;
+}
+
+.navbar ul li a:hover {
+  color: #dff9fb;
+  border: 1px solid #dcdde1;
 }

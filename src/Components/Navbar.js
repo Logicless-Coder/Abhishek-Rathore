@@ -5,9 +5,15 @@ function Navbar() {
   return (
     <div className="navbar">
       <ul>
-        <li>About Me</li>
-        <li>Contact</li>
-        <li>My Work</li>
+        <li>
+          <a>About Me</a>
+        </li>
+        <li>
+          <a>Contact</a>
+        </li>
+        <li>
+          <a>My Work</a>
+        </li>
       </ul>
     </div>
   );
